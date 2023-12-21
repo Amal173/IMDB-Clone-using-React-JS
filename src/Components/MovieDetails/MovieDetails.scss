@@ -1,0 +1,189 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    .relatedTitle {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .backgroundImage {
+
+        img {
+            width: 100%;
+            z-index: 1;
+        }
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+
+    .MovieDetails {
+        color: aliceblue;
+        display: flex;
+        gap: 30px;
+        padding: 100px 0px 60px 0px;
+
+        .movieImage {
+            img {
+                border-radius: 5px;
+                max-width: 300px;
+            }
+        }
+
+        .aboutMovie {
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .movieTitle {
+                display: flex;
+                flex-direction: row;
+
+                .aboutMovieHeader {
+                    flex: 1;
+
+                    .genres {
+                        display: flex;
+                        gap: 10px;
+                        p{
+                            font-size: 17px;
+                        }
+                    }
+                }
+
+                h6 {
+                    font-weight: 700;
+                    font-size: 36px;
+
+
+                }
+
+
+                h5 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+                    i {
+                        color: #f5c518;
+                    }
+                }
+            }
+
+            .movieDuration {
+                display: flex;
+                flex-direction: row;
+                gap: 8px;
+
+                h5 {
+
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                .movieDurationTitle {
+                    flex: 1;
+                }
+
+                .MovieDetailsAddWatchlistButton {
+                    button {
+                        padding: 10px;
+                        border-radius: 13px;
+                        border: none;
+                        cursor: pointer;
+                        width: 225px;
+                        background-color: #f5c518;
+
+                        p {
+
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+
+                    }
+
+                }
+            }
+
+            .releaseDate {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                h5 {
+
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+
+            .overView {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                h5 {
+
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+
+        }
+    }
+
+    .relatedMovieList {
+        display: flex;
+        padding-top: 30px;
+        gap: 20px;
+        max-width: 1245px;
+        flex-wrap: wrap;
+
+        .relatedFooter {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+    }
+
+    .SerchedMovieSuggestion {
+        position: absolute;
+        top: 60px;
+        left: 21%;
+        width: 53%;
+
+        .err {
+            color: #d60c0c;
+            width: 100%;
+            text-align: center;
+            font-size: 34px;
+            font-weight: 800;
+        }
+    }
+}

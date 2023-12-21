@@ -1,0 +1,25 @@
+.SearchSuggestions {
+    width: 100%;
+    color: black;
+
+
+    .searchContent {
+        background-color: rgb(18 18 18);
+        color: #ffffff;
+        padding: 5px;
+        display: flex;
+        gap: 10px;
+        border-color: rgb(87 87 87);
+        border-top-width: 1px;
+        border-top-style: solid;
+        transition: all 0.125s ease 0s;
+
+        .movieimg {
+            img {
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+            }
+        }
+    }
+}

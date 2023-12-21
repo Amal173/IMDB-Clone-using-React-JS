@@ -1,0 +1,144 @@
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.container .relatedTitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+}
+.container .backgroundImage img {
+  width: 100%;
+  z-index: 1;
+}
+.container p,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+  margin: 0;
+}
+.container .MovieDetails {
+  color: aliceblue;
+  display: flex;
+  gap: 30px;
+  padding: 100px 0px 60px 0px;
+}
+.container .MovieDetails .movieImage img {
+  border-radius: 5px;
+  max-width: 300px;
+}
+.container .MovieDetails .aboutMovie {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .MovieDetails .aboutMovie .movieTitle {
+  display: flex;
+  flex-direction: row;
+}
+.container .MovieDetails .aboutMovie .movieTitle .aboutMovieHeader {
+  flex: 1;
+}
+.container .MovieDetails .aboutMovie .movieTitle .aboutMovieHeader .genres {
+  display: flex;
+  gap: 10px;
+}
+.container .MovieDetails .aboutMovie .movieTitle .aboutMovieHeader .genres p {
+  font-size: 17px;
+}
+.container .MovieDetails .aboutMovie .movieTitle h6 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.container .MovieDetails .aboutMovie .movieTitle h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container .MovieDetails .aboutMovie .movieTitle h5 i {
+  color: #f5c518;
+}
+.container .MovieDetails .aboutMovie .movieDuration {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.container .MovieDetails .aboutMovie .movieDuration h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.container .MovieDetails .aboutMovie .movieDuration p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container .MovieDetails .aboutMovie .movieDuration .movieDurationTitle {
+  flex: 1;
+}
+.container .MovieDetails .aboutMovie .movieDuration .MovieDetailsAddWatchlistButton button {
+  padding: 10px;
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+  width: 225px;
+  background-color: #f5c518;
+}
+.container .MovieDetails .aboutMovie .movieDuration .MovieDetailsAddWatchlistButton button p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.container .MovieDetails .aboutMovie .releaseDate {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container .MovieDetails .aboutMovie .releaseDate h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.container .MovieDetails .aboutMovie .releaseDate p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container .MovieDetails .aboutMovie .overView {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container .MovieDetails .aboutMovie .overView h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.container .MovieDetails .aboutMovie .overView p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container .relatedMovieList {
+  display: flex;
+  padding-top: 30px;
+  gap: 20px;
+  max-width: 1245px;
+  flex-wrap: wrap;
+}
+.container .relatedMovieList .relatedFooter {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.container .SerchedMovieSuggestion {
+  position: absolute;
+  top: 60px;
+  left: 21%;
+  width: 53%;
+}
+.container .SerchedMovieSuggestion .err {
+  color: #d60c0c;
+  width: 100%;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+}

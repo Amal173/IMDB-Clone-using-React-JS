@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+
+    .socialMediaIcons {
+        display: flex;
+        gap: 40px;
+
+        i {
+            font-size: 22px;
+            color: antiquewhite;
+            cursor: pointer;
+        }
+    }
+
+    .brandLogo {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        color: antiquewhite;
+
+        img {
+            width: 100px;
+            height: 40px;
+            object-fit: cover;
+        }
+    }
+
+    .copyright {
+        color: antiquewhite;
+        font-size: 17px;
+        font-weight: 700;
+    }
+}

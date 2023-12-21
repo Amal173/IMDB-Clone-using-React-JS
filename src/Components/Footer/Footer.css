@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  padding-top: 50px;
+}
+.footer .socialMediaIcons {
+  display: flex;
+  gap: 40px;
+}
+.footer .socialMediaIcons i {
+  font-size: 22px;
+  color: antiquewhite;
+  cursor: pointer;
+}
+.footer .brandLogo {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: antiquewhite;
+}
+.footer .brandLogo img {
+  width: 100px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer .copyright {
+  color: antiquewhite;
+  font-size: 17px;
+  font-weight: 700;
+}

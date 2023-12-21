@@ -1,0 +1,69 @@
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 50 10px;
+}
+.container .watchListOuterCard {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .watchListOuterCard .watchlistTitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+}
+.container .watchListOuterCard .watchlistCard {
+  display: flex;
+  gap: 20px;
+  max-width: 1245px;
+  flex-wrap: wrap;
+}
+.container .watchListOuterCard .watchlistCard .error {
+  color: #d60c0c;
+  width: 100%;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+}
+.container .watchListOuterCard .watchlistCard .movieList {
+  background-color: #000;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 233px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.container .watchListOuterCard .watchlistCard .movieList p {
+  margin: 0;
+}
+.container .watchListOuterCard .watchlistCard .movieList .movieDetails {
+  padding: 10px 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .watchListOuterCard .watchlistCard .movieList .movieDetails i {
+  color: #f5c518;
+}
+.container .watchListOuterCard .watchlistCard .movieList .movieImage img {
+  border-radius: 13px;
+  width: 100%;
+  height: 350px;
+}
+.container .watchListOuterCard .watchlistCard .removeWatchlistButton {
+  width: 100%;
+  padding: 5px;
+  background-color: rgb(18, 18, 18);
+  color: #f5c518;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.container .watchListOuterCard .watchlistCard .removeWatchlistButton:hover {
+  background-color: #f5c518;
+  color: #000;
+}

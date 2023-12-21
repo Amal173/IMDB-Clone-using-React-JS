@@ -1,0 +1,88 @@
+header {
+
+    background: rgb(18 18 18);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    .container {
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 0 10px;
+
+        .navBar {
+            background: rgb(18 18 18);
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            ;
+            display: flex;
+
+            gap: 20px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 10px;
+
+            .brandLogo {
+                img {
+                    width: 70px;
+                    height: 35px;
+                }
+            }
+
+            .hamburgerMenu {
+                color: #fff;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                i {
+                    font-size: 17px;
+                }
+            }
+
+            .searchBar {
+                flex: 1;
+                display: flex;
+                background-color: #fff;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+                padding: 0px 15px 0 0;
+
+                input {
+                    width: 100%;
+                    font-family: Arial, FontAwesome;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: none;
+
+                    &:focus {
+                        outline: none;
+
+                    }
+                }
+            }
+
+            button {
+                padding: 9px 15px;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                display: flex;
+                gap: 5px;
+                justify-content: center;
+                align-items: center;
+                font-size: 15px;
+                font-weight: 700;
+                color: #fff;
+                background-color: rgb(18 18 18);
+
+                &:hover {
+                    background-color: #212120;
+                }
+            }
+
+        }
+
+    }
+}
